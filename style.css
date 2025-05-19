@@ -8,6 +8,40 @@ html, body {
     height: 100%;
     margin: 0;
 }
+/* 로딩 인디케이터 스타일 */
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #d50303; /* 캐나다 테마 색상 */
+    animation: spin 1s linear infinite;
+    z-index: 100;
+}
+
+.loading-text {
+    position: absolute;
+    top: calc(50% + 40px);
+    left: 50%;
+    transform: translateX(-50%);
+    color: #d50303;
+    font-weight: bold;
+    text-align: center;
+    z-index: 100;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
 
 * {
     margin: 0;
@@ -96,8 +130,8 @@ ul {
     margin: 0 auto;
     padding-left: 2rem;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
