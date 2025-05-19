@@ -89,14 +89,19 @@
     </section>
 
     <section class="section" id="3d-culture">
-    <h1>See Canadian Culture in 3D</h1>
-    <div class="model-buttons">
-        <button class="model-btn" data-model="beaver">Beaver</button>
-        <button class="model-btn" data-model="maple">Maple</button>
-        <button class="model-btn" data-model="maplesyrup">Maple Syrup</button>
+        <h1>See Canadian Culture in 3D</h1>
+        <div class="model-buttons">
+            <button class="model-btn" data-model="beaver">Beaver</button>
+            <button class="model-btn" data-model="maple">Maple</button>
+            <button class="model-btn" data-model="maplesyrup">Maple Syrup</button>
+        </div>
+        <div id="model-container">
+            <div id="loading-indicator" class="hidden">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">loading 3D model</div>
     </div>
-    <div id="model-container"></div>
-</section>
+        </div>
+    </section>
 
     <script src="javascript.js"></script>
 </body>
