@@ -240,3 +240,67 @@ li {
         font-size: 14px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conclusion-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 900px;
+    }
+    
+    .conclusion-text {
+        font-size: 24px;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: #333;
+    }
+    
+    
+    .credits {
+        margin-top: 30px;
+        text-align: center;
+        padding: 20px;
+        border-top: 2px solid #d50303;
+        width: 100%;
+    }
+    
+    .credits h3 {
+        color: #d50303;
+        margin-bottom: 10px;
+    }
+    
+    .credits p {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+    
+    @media (max-width: 768px) {
+        .conclusion-text {
+            font-size: 20px;
+        }
+
+    }
+    
+    @media (max-width: 480px) {
+        .conclusion-text {
+            font-size: 18px;
+        }
+
+        .credits p {
+            font-size: 16px;
+        }
+    }
