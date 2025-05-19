@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/MTLLoader.js"></script>
+</head>
+<body>
+    <div id="canvas-container"></div>
+
+    <section id="intro" class="section">
+        
+        <h1>Welcome to our presentation for Canada</h1>
+        <h2>25/6/2025  -  international day</h2>
+        <p>Al-Beruniy international Schoool (ABIS)</p>
+        <p>made by Tillaev Muaz</p>
+
+        <div class="scroll-hint">
+            <div>👇</div>
+            <p>Scroll to Begin the Journey</p>
+        </div>
+    
+    </section>
+
+
+    <section class="section">
+
+        <h1>About Canada</h1>
+
+        <h3>Canada is a large and peaceful country in North America. It is known for its beautiful nature, clean cities, and kind, respectful people.</h3>
+
+    </section>
+
+    <section class="section">
+        <h1>🌍 Basic Information</h1>
+
+        <ul>
+            <li>Capital: Ottawa</li>
+            <li>Largest City: Toronto</li>
+            <li>Languages: English and French</li>
+            <li>Currency: Canadian Dollar (CAD)</li>
+            <li>Famous Place: Niagara Falls</li>
+            <li>National Symbol: Maple Leaf</li>
+            <li>National Animal: Beaver</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h1>🎉 Canadian Culture</h1>
+
+        <p style="font-size: 2vh;">Canada is proud of its multicultural society. People from all around the world live in Canada, and all cultures are respected. Canadians believe in equality, kindness, and freedom.</p>
+
+        <div style="margin-top: 5vh;">
+            <h2 style="text-align: center;">What makes Canadian culture special?</h2>
+            <ul>
+                <li>You can find many different foods, music, and festivals from other countries in Canadian cities.</li>
+                <li>Canadians love the outdoors—hiking, camping, skiing, and ice skating are very popular.</li>
+                <li>Saying “sorry” and “thank you” is very common—Canadians are known for being very polite.</li>
+                <li>Hockey is not just a sport—it’s part of the national identity!</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1>🍁 Canadian Holidays</h1>
+
+        <ul>
+            <li>Canada Day (July 1) – Canada’s birthday with parades and fireworks.</li>
+            <li>Thanksgiving (October) – Families come together to eat and give thanks.</li>
+            <li>National Indigenous Peoples Day (June 21) – Celebrating the First Nations, Inuit, and Métis peoples of Canada.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h1>🍽️ Popular Canadian Foods</h1>
+        <ul>
+            <li>Poutine – French fries with cheese curds and gravy.</li>
+            <li>Maple syrup – A sweet syrup made from maple trees.</li>
+            <li>Butter tarts – A traditional Canadian dessert.</li>
+        </ul>
+    </section>
+
+    <section class="section" id="3d-culture">
+    <h1>See Canadian Culture in 3D</h1>
+    <div class="model-buttons">
+        <button class="model-btn" data-model="beaver">Beaver</button>
+        <button class="model-btn" data-model="maple">Maple</button>
+        <button class="model-btn" data-model="maplesyrup">Maple Syrup</button>
+    </div>
+    <div id="model-container"></div>
+</section>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
